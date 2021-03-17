@@ -7,7 +7,7 @@ package com.mycompany.zooinfosystem;
 
 /**
  *
- * @author Holo
+ * @author MiltonGZ
  */
 public class Ticket {
     private int ticketID;
@@ -19,4 +19,29 @@ public class Ticket {
         this.purhchaseDate = purchaseDate;
         this.ticketType = ticketType;
     }
+
+    public int getTicketID() {
+        return ticketID;
+    }
+
+    public void setTicketID(int ticketID) {
+        this.ticketID = ticketID;
+    }
+
+    public int getPurhchaseDate() {
+        return purhchaseDate;
+    }
+
+    public void setPurhchaseDate(int purhchaseDate) {
+        this.purhchaseDate = purhchaseDate;
+    }
+
+    public String getTicketType() {
+        return ticketType;
+    }
+
+    public void setTicketType(String ticketType) {
+        this.ticketType = ticketType;
+    }
+    
 }
