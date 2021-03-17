@@ -7,7 +7,7 @@ package com.mycompany.zooinfosystem;
 
 /**
  *
- * @author Holo
+ * @author MiltonGZ
  */
 public class Animal {
     
@@ -26,5 +26,60 @@ public class Animal {
         this.arrivalDate = arrivalDate;
         this.dob = dob;
     }
+
+    public int getAnimalId() {
+        return animalId;
+    }
+
+    public void setAnimalId(int animalId) {
+        this.animalId = animalId;
+    }
+
+    public String getAnimalName() {
+        return animalName;
+    }
+
+    public void setAnimalName(String animalName) {
+        this.animalName = animalName;
+    }
+
+    public String getAnimalSpecies() {
+        return animalSpecies;
+    }
+
+    public void setAnimalSpecies(String animalSpecies) {
+        this.animalSpecies = animalSpecies;
+    }
+
+    public String getZooLocation() {
+        return zooLocation;
+    }
+
+    public void setZooLocation(String zooLocation) {
+        this.zooLocation = zooLocation;
+    }
+
+    public int getArrivalDate() {
+        return arrivalDate;
+    }
+
+    public void setArrivalDate(int arrivalDate) {
+        this.arrivalDate = arrivalDate;
+    }
+
+    public int getDob() {
+        return dob;
+    }
+
+    public void setDob(int dob) {
+        this.dob = dob;
+    }
+
+    @Override
+    public String toString() {
+        return "Animal{" + "animalId=" + animalId + ", animalName=" + animalName + ", animalSpecies=" + animalSpecies + ", zooLocation=" + zooLocation + ", arrivalDate=" + arrivalDate + ", dob=" + dob + '}';
+    }
+    
+    
     
 }
