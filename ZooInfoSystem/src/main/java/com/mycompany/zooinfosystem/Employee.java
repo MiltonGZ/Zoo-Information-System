@@ -7,7 +7,7 @@ package com.mycompany.zooinfosystem;
 
 /**
  *
- * @author Holo
+ * @author MiltonGZ
  */
 public class Employee {
     private int empId;
