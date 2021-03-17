@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Holo
+ * @author MiltonGZ
  */
 public class Customer {
     private int custId;
@@ -17,11 +17,54 @@ public class Customer {
     private ArrayList<Ticket> purchases;
     private int cardNumber;
 
-    public Customer(int custId, String custName, String custAddress, ArrayList<Ticket> purchases, int cardNumber) {
+    public Customer(int custId, String custName, String custAddress, int cardNumber) {
         this.custId = custId;
         this.custName = custName;
         this.custAddress = custAddress;
         this.purchases = new ArrayList<>();
+        this.cardNumber = cardNumber;
+    }
+    public void addTicket(){
+        this.purchases.add(new Ticket(1, 1, "a"));
+    }
+
+    public int getCustId() {
+        return custId;
+    }
+
+    public void setCustId(int custId) {
+        this.custId = custId;
+    }
+
+    public String getCustName() {
+        return custName;
+    }
+
+    public void setCustName(String custName) {
+        this.custName = custName;
+    }
+
+    public String getCustAddress() {
+        return custAddress;
+    }
+
+    public void setCustAddress(String custAddress) {
+        this.custAddress = custAddress;
+    }
+
+    public ArrayList<Ticket> getPurchases() {
+        return purchases;
+    }
+
+    public void setPurchases(ArrayList<Ticket> purchases) {
+        this.purchases = purchases;
+    }
+
+    public int getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(int cardNumber) {
         this.cardNumber = cardNumber;
     }
     
