@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Holo
+ * @author MiltonGZ
  */
 public class Zoo {
     private ArrayList<Animal> animals;
