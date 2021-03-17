@@ -7,7 +7,7 @@ package com.mycompany.zooinfosystem;
 
 /**
  *
- * @author Holo
+ * @author MiltonGZ
  */
 import java.util.Scanner;
 public class UserInterface {
